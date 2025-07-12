@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.watch{
+    text-align: center;
+    font-size: 38px;
+    color: cornflowerblue;
+}
+.conatiner{
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    width: 440px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 15px;
+    
+
+}
+.num{
+   display: flex;
+   color: white;
+   margin-left: 5%;
+   
+}
+h2{
+    font-size: 60px;
+    margin-inline:5px;
+}
+button{
+    width: 120px;
+    height: 35px;
+    background-color: pink;
+    border-radius:10px;
+    margin-top:20px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    margin-inline:8px;
+}
+
+@media (max-width:480px) {
+    .conatiner{
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    
+}
+
+
+
+
